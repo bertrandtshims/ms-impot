@@ -2,7 +2,7 @@ on:
   push:
 jobs:
   test:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-        - echo "Deploiement_projet"
+      - run: echo "Deploiement_projet"
     
